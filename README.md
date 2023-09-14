@@ -14,7 +14,7 @@ To install and run the example problem:
 
 copy the HTTP for this git reporsitory, do git clone to the local:
 
-> git clone https://github.com/chunhuizhao478/ncommpapercode.git 
+> git clone https://github.com/chunhuizhao478/farmscode.git 
 
 compile the code (use 8 mpicores as example)
 
@@ -22,7 +22,7 @@ compile the code (use 8 mpicores as example)
 
 run the code
 
-> mpirun -np 8 ./ncommpapercode-opt -i code/ncommpaper/main.i
+> mpirun -np 8 ./farmscode-opt -i code/paper/main.i 
 
 use paraview (or netCDF4-based application) to open the output exodus file
 
